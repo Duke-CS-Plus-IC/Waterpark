@@ -1,0 +1,19 @@
+service : {
+  close_Trove: (nat) -> (text);
+  collect_ICP_from_Stability_Account: () -> (text);
+  create_Account_User1: (text) -> ();
+  create_Stability_Account: () -> (text, bool);
+  create_Trove: () -> (text);
+  current_collateral_ratio: () -> (text);
+  deposit_ICP: (nat) -> (text);
+  deposit_SDR: (nat) -> (text);
+  deposit_to_stability_pool: (nat) -> (text);
+  get_Free_ICP: () -> (text);
+  get_Free_SDR: () -> (text);
+  get_user_ID: () -> (text);
+  icp_locked: () -> (text);
+  sdr_outstanding: () -> (text);
+  test_run: (text) -> (text);
+  withdraw_ICP: (nat) -> (text);
+  withdraw_SDR: (nat) -> (text);
+}

@@ -1,0 +1,10 @@
+service : {
+  addICP: (nat) -> (text, bool);
+  burnSDR: (nat) -> (text, bool);
+  getMinCollateralRatio: () -> (float64) query;
+  get_ICP_Supply: () -> (int) query;
+  get_SDR_Supply: () -> (int) query;
+  init: () -> () oneway;
+  mintSDR: (nat) -> (text, bool);
+  removeICP: (nat) -> (text, bool);
+}

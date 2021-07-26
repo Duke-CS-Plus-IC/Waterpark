@@ -1,0 +1,16 @@
+service : {
+  burn_reserve: (int) -> (text, bool);
+  closedTrove: (nat, nat) -> (text);
+  collect_ICP: (text) -> (nat);
+  create_Stability_Account: (text) -> (text, bool);
+  deposit_ICP: (nat) -> ();
+  deposit_Reserve: (nat) -> ();
+  deposit_SDR: (text, nat) -> (text, bool);
+  get_ICP: (text) -> (int);
+  get_SDR: (text) -> (int);
+  get_reserve_sdr_amount: () -> (int);
+  get_total_deposited_sdr: () -> (int);
+  icp_remaining: () -> (int);
+  sdr_to_burn_remaining: () -> (int);
+  totalSDR: () -> (int);
+}

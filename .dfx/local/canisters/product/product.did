@@ -1,0 +1,12 @@
+service : {
+  checkLiquidation: () -> (text);
+  closeTrove: (text, nat) -> (text, nat, bool);
+  createTrove: (text, nat, nat) -> (text);
+  decreaseICP: (text, nat) -> (text, bool);
+  decreaseSDR: (text, nat) -> (text, bool);
+  getTroveCollateralRatio: (text) -> (text, float64, bool);
+  getTroveICP: (text) -> (text, nat, bool);
+  getTroveSDR: (text) -> (text, nat, bool);
+  increaseICP: (text, nat) -> (text, bool);
+  increaseSDR: (text, nat) -> (text, bool);
+}

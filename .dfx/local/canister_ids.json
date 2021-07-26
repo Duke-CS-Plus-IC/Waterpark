@@ -1,0 +1,26 @@
+{
+  "__Candid_UI": {
+    "local": "qoctq-giaaa-aaaaa-aaaea-cai"
+  },
+  "price_oracle": {
+    "local": "rrkah-fqaaa-aaaaa-aaaaq-cai"
+  },
+  "product": {
+    "local": "ryjl3-tyaaa-aaaaa-aaaba-cai"
+  },
+  "stability_pool": {
+    "local": "r7inp-6aaaa-aaaaa-aaabq-cai"
+  },
+  "treasury": {
+    "local": "rkp4c-7iaaa-aaaaa-aaaca-cai"
+  },
+  "user1": {
+    "local": "rno2w-sqaaa-aaaaa-aaacq-cai"
+  },
+  "user2": {
+    "local": "renrk-eyaaa-aaaaa-aaada-cai"
+  },
+  "user_assets": {
+    "local": "rdmx6-jaaaa-aaaaa-aaadq-cai"
+  }
+}

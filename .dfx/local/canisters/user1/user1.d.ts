@@ -1,0 +1,20 @@
+import type { Principal } from '@dfinity/agent';
+export default interface _SERVICE {
+  'close_Trove' : (arg_0: bigint) => Promise<string>,
+  'collect_ICP_from_Stability_Account' : () => Promise<string>,
+  'create_Account_User1' : (arg_0: string) => Promise<undefined>,
+  'create_Stability_Account' : () => Promise<[string, boolean]>,
+  'create_Trove' : () => Promise<string>,
+  'current_collateral_ratio' : () => Promise<string>,
+  'deposit_ICP' : (arg_0: bigint) => Promise<string>,
+  'deposit_SDR' : (arg_0: bigint) => Promise<string>,
+  'deposit_to_stability_pool' : (arg_0: bigint) => Promise<string>,
+  'get_Free_ICP' : () => Promise<string>,
+  'get_Free_SDR' : () => Promise<string>,
+  'get_user_ID' : () => Promise<string>,
+  'icp_locked' : () => Promise<string>,
+  'sdr_outstanding' : () => Promise<string>,
+  'test_run' : (arg_0: string) => Promise<string>,
+  'withdraw_ICP' : (arg_0: bigint) => Promise<string>,
+  'withdraw_SDR' : (arg_0: bigint) => Promise<string>,
+};
