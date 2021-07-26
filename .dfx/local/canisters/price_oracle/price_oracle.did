@@ -1,4 +1,0 @@
-service : {
-  get_icp_to_sdr: () -> (float64);
-  update_icp_to_sdr: (float64) -> ();
-}
