@@ -1,4 +1,4 @@
-# WaterPark Protocol for the Internet Computer
+# WaterPark Protocol on Internet Computer
 
 WaterPark is an application built on the Internet Computer as a decentralized, undercollateralized lending protocol. WaterPark is still currently in development in association with the [Duke University CS+ Summer Program](https://www.cs.duke.edu/undergrad/summer_research) 2021 Project: Decentralized Finance: Cryptocurrency and Blockchain on the Internet Computer. The application was developed by Oum Lahade (Duke 2024) and Rhys Banerjee (Duke 2023).
 
