@@ -26,7 +26,7 @@ This ReadMe assumes that you have dfx downloaded and installed. Dfinity has prov
 Once you have the latest version of dfx installed, you should begin your local environment by enacting the following commands:
 In one terminal, navigate to the project directory and run
 ```
-dfx start
+dfx start --clean
 ```
 In another terminal, navigate to the project directory and run
 ```
