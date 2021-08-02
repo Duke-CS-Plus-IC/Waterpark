@@ -10,4 +10,3 @@ actor price_oracle{
         icp_to_sdr := new_val;
     };
 }
-// test
